@@ -129,7 +129,7 @@
       $(function(){
             $("#navbar").load("navbar.html", function() {
                   // Apply animations after navbar is loaded
-                  TweenMax.from("#brand", 1, {
+                  /*TweenMax.from("#brand", 1, {
                         delay: 0.4,
                         y: 10,
                         opacity: 0,
@@ -140,7 +140,7 @@
                         delay: 0.4,
                         opacity: 0,
                         ease: Expo.easeInOut
-                  }, 0.1);
+                  }, 0.1);*/
             }); 
       });
 
@@ -180,23 +180,6 @@
                   });
             }); 
       });
-
-      // nav animation
-
-      TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
-
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
-
-      // nav animation ends
 
       new WOW().init();
 
