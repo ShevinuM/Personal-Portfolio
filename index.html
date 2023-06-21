@@ -22,6 +22,9 @@
 
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
       <!-- terminal effect -->
       <script src="t.min.js"></script>
@@ -29,7 +32,6 @@
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="css/animate.css">
       <script src="js/wow.min.js"></script>
-
 </head>
 <body>
       <div class="wrapper">
@@ -44,7 +46,7 @@
                   </ul>
               
                   <div id="toggle">
-                        <div class="span wow fadeIn" data-wow-delay="0.2s">menu</div>
+                        <div id="menu-btn" class="span wow fadeIn" data-wow-delay="0.2s">menu</div>
                   </div>
               </nav>
               
@@ -52,7 +54,7 @@
                   <div class="close-btn">close</div>
               
                   <ul id="menu">
-                        <li><a href="index.html">home<span>.</span></a></li>
+                        <li><a href="index.html" style="font-weight: 500">home<span>.</span></a></li>
                         <li><a href="html/work.html">work<span>.</span></a></li>
                         <li><a href="https://shevinum.github.io/Resume/" target="_blank">resume<span>.</span></a></li>
                         <li><a href="html/contact.html">contact<span>.</span></a></li>
@@ -209,7 +211,7 @@
       <!--------toast--------->
       <div class="toast" style="position: fixed; top: 90vh; right: 20px; z-index: 9999; background:#5b209a; color: white" id="copy-toast" data-delay="2000">
             <div class="toast-body">
-              Discord username copied!
+                  <i class="fab fa-discord"></i> Discord username copied!
             </div>
       </div>
       <!-----toast ends------->

@@ -19,6 +19,9 @@
 
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
       <!-- font awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -59,11 +62,13 @@
                                           <div class="col-lg-8">
                                                 <p class="wow fadeInUp">technologies :</p>
                                                 <h6 class="wow fadeInUp">java, swing</h6>
+                                                <br>
                                           </div>
-
+                                          
                                           <div class="col-lg-2">
                                                 <p class="wow fadeInUp">started :</p>
                                                 <h6 class="wow fadeInUp">25 jan 2023</h6>
+                                                <br>
                                           </div>
 
                                           <div class="col-lg-2">
@@ -73,18 +78,30 @@
                                     </div>
                                     <br>
                                     <div class="row">
-                                          <div class="col-lg-2">
-                                                <p class="wow fadeInUp">contributors:</p>
+                                          <div class="col-lg-2 col-sm-12">
+                                              <p class="wow fadeInUp">contributors:</p>
                                           </div>
-                                          <div class="col-lg-2">
-                                                <div class="row"><p class="wow fadeInUp">codebase</p></div>
-                                                <div class="row"><h6 class="wow fadeInUp"><a href="https://github.com/ShevinuM">me</a>, <a href="https://github.com/Amench431">alex</a>, <a href="https://github.com/rhhryan">ren</a></h6></div>  
+                                          <div class="col-lg-2 col-sm-12">
+                                              <p class="wow fadeInUp">codebase: <span class="d-lg-block d-sm-none"></span>
+                                                  <h6 class="wow fadeInUp d-inline">
+                                                      <a href="https://github.com/ShevinuM">me</a>,
+                                                      <a href="https://github.com/Amench431">alex</a>,
+                                                      <a href="https://github.com/rhhryan">ren</a>
+                                                  </h6>
+                                              </p>
                                           </div>
-                                          <div class="col-lg-8">
-                                                <div class="row"><p class="wow fadeInUp">uml diagrams</p></div>
-                                                <div class="row"><h6 class="wow fadeInUp"><a href="https://github.com/ShevinuM">me</a>, <a href="https://github.com/Amench431">alex</a>, <a href="https://github.com/rhhryan">ren</a>, <a href="https://github.com/vedant-508">vedant</a>, <a href="https://github.com/kerpine?tab=repositories">kyla</a></h6></div>  
+                                          <div class="col-lg-8 col-sm-12">
+                                              <p class="wow fadeInUp">uml diagrams: <span class="d-lg-block d-sm-none"></span>
+                                                  <h6 class="wow fadeInUp d-inline">
+                                                      <a href="https://github.com/ShevinuM">me</a>,
+                                                      <a href="https://github.com/Amench431">alex</a>,
+                                                      <a href="https://github.com/rhhryan">ren</a>,
+                                                      <a href="https://github.com/vedant-508">vedant</a>,
+                                                      <a href="https://github.com/kerpine?tab=repositories">kyla</a>
+                                                  </h6>
+                                              </p>
                                           </div>
-                                    </div>
+                                      </div>
                                     <br>
                                     <p class="wow fadeInUp">an Immersive online adaptation of the popular 1980s board game designed with a deep appreciation for the orginal while infusing it with new-age digital charm.</p>
                                     <p class="wow fadeInUp">our game captures the classic board game's esscence with a modern, user-friendly interface. players can engage in this addictive stratergy game against their friends or compete against the computer.</p>
@@ -234,7 +251,7 @@
       $(function(){
             $("#navbar").load("navbar.html", function() {
                   // Apply animations after navbar is loaded
-                  TweenMax.from("#brand", 1, {
+                  /*TweenMax.from("#brand", 1, {
                         delay: 0.4,
                         y: 10,
                         opacity: 0,
@@ -245,7 +262,7 @@
                         delay: 0.4,
                         opacity: 0,
                         ease: Expo.easeInOut
-                  }, 0.1);
+                  }, 0.1);*/
             }); 
       });
 
@@ -273,5 +290,10 @@
 
 
       </script>
+      <div class="toast" style="position: fixed; top: 90vh; right: 20px; z-index: 9999; background:#5b209a; color: white" id="copy-toast" data-delay="2000">
+            <div class="toast-body">
+              Discord username copied!
+            </div>
+      </div>
 </body>
 </html>

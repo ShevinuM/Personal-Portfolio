@@ -10,6 +10,8 @@
       --linkedin_blue: #0077B5;
       --hover_gray: gray;
       --background: rgb(253 245 238);
+      --link_blue: rgb(65 107 206);
+      --link_blue_hover: rgb(65 107 206 / 50%);
 }
 
 /*--------------- basic styling --------------- */
@@ -18,7 +20,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: "Roboto Mono" !important;
+      font-family: 'JetBrains Mono', monospace !important;
       color: #0f0f0f !important;
       background: rgb(253 245 238) !important;
 }
@@ -127,8 +129,12 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color: black;
+      color: var(--link_blue);
       font-weight: bold;
+}
+
+#menu-btn, .close-btn {
+      color: var(--link_blue);
 }
 
 nav #menu li a:hover {
@@ -198,7 +204,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color: black;
+      color: var(--link_blue);
 }
 
 #resize #menu li a:hover {
@@ -314,7 +320,7 @@ h6 {
       width: 100%;
 }
 .projects-desc{
-      color: var(--linkedin_blue) !important;
+      color: var(--link_blue) !important;
       font-weight: 400 !important;
 }
 
@@ -407,12 +413,12 @@ h6 {
 .info h4 {
       font-size: 18px;
       font-weight: lighter;
-      color: var(--linkedin_blue)
+      color: var(--link_blue)
 }
-.info h4 > a:visited {color: var(--linkedin_blue); }
+.info h4 > a:visited {color: var(--link_blue); }
 .info h4 > a:hover {
       text-decoration: none;
-      color: var(--linkedin_blue_hover);
+      color: var(--link_blue_hover);
 }
 
 .info p {
@@ -590,4 +596,8 @@ textarea:focus {
 
 .next p {
       text-align: right;
+}
+
+h4 a, p a, h4 a:visited, p a:visited {
+      color: var(--link_blue) !important;
 }
