@@ -340,38 +340,9 @@ h6 {
       background: url(../images/SAFEPASS.png) no-repeat 50% 50%;
       background-size: cover;
 }
-
-.project2 {
-      background: url(../images/CantStop.png) no-repeat 50% 50%;
+.image-t1 {
+      background: url(../images/spring_data_jpa.png) no-repeat 50% 50%;
       background-size: cover;
-}
-
-.project2::before {
-      content: "can't stop!";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: black;
-      display: block;
-      top: 8%;
-      left: 110%;
-      right: 0;
-      bottom: 0;
-}
-
-.project2::after {
-      content: "A vibrant, immersive, and engaging video game adaptation of the classic board game, 'Can't Stop'. Designed for both individual players and multiplayer engagement, our game perfectly encapsulates the spirit of the original board game while introducing exciting new elements afforded by the digital landscape.";
-      font-family: "Roboto Mono";
-      font-size: 20px;
-      position: relative;
-      color: black;
-      display: block;
-      top: 8%;
-      left: 110%;
-      right: 0;
-      bottom: 0;
-      width: 70%;
-      font-weight: lighter;
 }
 
 
@@ -382,10 +353,6 @@ h6 {
       }
 
       .vertical {
-            display: none;
-      }
-
-      .project1::after, .project2::after, .project3::after, .project4::after {
             display: none;
       }
 
