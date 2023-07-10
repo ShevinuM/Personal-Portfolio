@@ -572,3 +572,40 @@ textarea:focus {
 h4 a, p a, h4 a:visited, p a:visited {
       color: var(--link_blue) !important;
 }
+
+/*--------------- timeline --------------- */
+.timeline {
+      position: relative;
+      margin-left: 50px; /* Adjust this as needed */
+    }
+    
+    .timeline:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -21px; /* Adjust to align with circle centers */
+      bottom: 0;
+      width: 2px;
+      background: #000; /* Or any color you like */
+    }
+    
+    .timeline .event {
+      position: relative;
+      margin-bottom: 20px; /* Adjust this as needed */
+    }
+    
+    .timeline .circle {
+      position: absolute;
+      left: -30px; /* Adjust this as needed */
+      top: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #000; /* Or any color you like */
+      border: 2px solid var(--background);
+    }
+    
+    .timeline .event .content {
+      padding-left: 10px;
+    }
+    
