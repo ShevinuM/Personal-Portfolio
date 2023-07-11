@@ -29,6 +29,12 @@
       <link rel="stylesheet" href="../css/animate.css">
       <script src="../js/wow.min.js"></script>
 
+      <!-- greensock cdn -->
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <script defer type="text/javascript">
+        new WOW().init();
+      </script>
+
 </head>
 <body>
       <div class="wrapper">
@@ -134,7 +140,7 @@
                                                             </div>
                                                             <div class="col-lg-3">
                                                                 <h6>project: </h6>
-                                                                <p><a href="Sheldon.html" >sheldon</a></p>
+                                                                <p><a href="Sheldon.html">sheldon</a></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -160,8 +166,7 @@
 
       </div>
 
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      
 
       <script type="text/javascript">
 
@@ -221,7 +226,10 @@
             }); 
       });
 
-      new WOW().init();
+      $(document).ready(function() {
+        $('body').css('display', 'block');
+        // rest of your JS code
+      });
 
 
       </script>

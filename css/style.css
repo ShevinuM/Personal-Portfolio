@@ -25,6 +25,10 @@ html, body {
       background: rgb(253 245 238) !important;
 }
 
+body {
+      display: none;
+}
+
 .whitespace {
       width: 100%;
       height: 100px;
@@ -569,7 +573,7 @@ textarea:focus {
       text-align: right;
 }
 
-h4 a, p a, h4 a:visited, p a:visited {
+a p, h6 a, h5 a, h4 a, p a, h4 a:visited, p a:visited {
       color: var(--link_blue) !important;
 }
 
