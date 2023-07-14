@@ -352,6 +352,10 @@ h6 {
       background: url(../images/CRUD_API.png) no-repeat 50% 50%;
       background-size: cover;
 }
+.image-o2 {
+      background: url(../images/spotifyPal.png) no-repeat 50% 50%;
+      background-size: cover;
+}
 
 
 @media(max-width: 768px) {
