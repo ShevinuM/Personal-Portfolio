@@ -366,6 +366,10 @@ h6 {
 	background: url(../images/rock-paper-scissor.png) no-repeat 50% 50%;
 	background-size: cover;
 }
+.image-7 {
+	background: url(../images/etch-a-sketch.png) no-repeat 50% 50%;
+	background-size: cover;
+}
 
 @media (max-width: 768px) {
 	.project {
