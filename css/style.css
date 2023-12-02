@@ -370,6 +370,18 @@ h6 {
 	background: url(../images/etch-a-sketch.png) no-repeat 50% 50%;
 	background-size: cover;
 }
+.image-8 {
+	background: url(../images/AoC.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.image-9 {
+	background: url(../images/Connect4.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.image-10 {
+	background: url(../images/AStar.png) no-repeat 50% 50%;
+	background-size: cover;
+}
 
 @media (max-width: 768px) {
 	.project {
