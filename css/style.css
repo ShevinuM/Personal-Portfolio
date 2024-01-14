@@ -706,3 +706,8 @@ p a:visited {
 .twoxl {
 	font-size: 50px;
 }
+
+.nf {
+	padding: 0;
+	margin: 0;
+}
