@@ -674,3 +674,35 @@ p a:visited {
 .timeline .event .content {
 	padding-left: 10px;
 }
+
+.indent {
+	text-indent: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.purple {
+	color: purple;
+}
+
+.pink {
+	color: var(--ig_pink);
+}
+
+.orange {
+	color: orange;
+}
+
+.xl {
+	font-size: 25px;
+}
+
+.twoxl {
+	font-size: 50px;
+}
