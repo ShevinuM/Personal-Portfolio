@@ -1,253 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-      <title>Shevinu's Portfolio Website</title>
+		<title>Shevinu's Portfolio Website</title>
 
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="css/style.css">
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="css/style.css" />
 
-      <!--icons-->
-      <script src="https://kit.fontawesome.com/a79e9c589c.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+		<!--icons-->
+		<script
+			src="https://kit.fontawesome.com/a79e9c589c.js"
+			crossorigin="anonymous"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
 
-      <!--jQuery-->
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<!--jQuery-->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<!-- bootstrap cdns -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com"> 
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<!-- google fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+			rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet" />
 
-      <!-- terminal effect -->
-      <script src="t.min.js"></script>
+		<!-- terminal effect -->
+		<script src="t.min.js"></script>
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="css/animate.css">
-      <script src="js/wow.min.js"></script>
-</head>
-<body>
-      <div class="wrapper">
+		<!-- for on scroll animations -->
+		<link rel="stylesheet" href="css/animate.css" />
+		<script src="js/wow.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--------------- navbar starts here --------------->
+			<nav>
+				<ul id="menu">
+					<li>
+						<a href="index.html">home<span>.</span></a>
+					</li>
+					<li>
+						<a href="html/work.html">projects<span>.</span></a>
+					</li>
+					<li>
+						<a href="html/experience.html"
+							>experience<span>.</span></a
+						>
+					</li>
+					<!---<li><a href="https://shevinum.github.io/Resume/" target="_blank">resume<span>.</span></a></li>--->
+					<li>
+						<a href="html/contact.html">contact<span>.</span></a>
+					</li>
+				</ul>
 
-            <!--------------- navbar starts here --------------->
-            <nav>
-                  <ul id="menu">
-                        <li><a href="index.html">home<span>.</span></a></li>
-                        <li><a href="html/work.html">projects<span>.</span></a></li>
-                        <li><a href="html/experience.html">experience<span>.</span></a></li>
-                        <!---<li><a href="https://shevinum.github.io/Resume/" target="_blank">resume<span>.</span></a></li>--->
-                        <li><a href="html/contact.html">contact<span>.</span></a></li>
-                  </ul>
-              
-                  <div id="toggle">
-                        <div id="menu-btn" class="span wow fadeIn" data-wow-delay="0.2s">menu</div>
-                  </div>
-              </nav>
-              
-              <div id="resize">
-                  <div class="close-btn">close</div>
-              
-                  <ul id="menu">
-                        <li><a href="index.html">home<span>.</span></a></li>
-                        <li><a href="html/work.html">projects<span>.</span></a></li>
-                        <li><a href="html/experience.html">experience<span>.</span></a></li>
-                        <li><a href="html/contact.html">contact<span>.</span></a></li>
-                  </ul>
-              </div>
-            <!--------------- navbar ends here --------------->
+				<div id="toggle">
+					<div
+						id="menu-btn"
+						class="span wow fadeIn"
+						data-wow-delay="0.2s">
+						menu
+					</div>
+				</div>
+			</nav>
 
+			<div id="resize">
+				<div class="close-btn">close</div>
 
+				<ul id="menu">
+					<li>
+						<a href="index.html">home<span>.</span></a>
+					</li>
+					<li>
+						<a href="html/work.html">projects<span>.</span></a>
+					</li>
+					<li>
+						<a href="html/experience.html"
+							>experience<span>.</span></a
+						>
+					</li>
+					<li>
+						<a href="html/contact.html">contact<span>.</span></a>
+					</li>
+				</ul>
+			</div>
+			<!--------------- navbar ends here --------------->
 
-            <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <h1 class="line anim-typewriter">hi! i'm shevinu</h1>
-                  </div>
-            </div>
+			<!--------------- hero section starts here --------------->
+			<div class="hero">
+				<div class="header">
+					<h1 class="line anim-typewriter">hi! i'm shevinu</h1>
+				</div>
+			</div>
 
-            <div class="scroll-down"></div>
-            <!--------------- hero section ends here --------------->
+			<div class="scroll-down"></div>
+			<!--------------- hero section ends here --------------->
 
+			<!--------------- about section starts here --------------->
+			<div class="container-fluid">
+				<br /><br /><br />
 
+				<h6>about me</h6>
 
-            <!--------------- about section starts here --------------->
-            <div class="container-fluid">
-                  <br><br><br>
+				<div class="vertical"></div>
 
-                  <h6>about me</h6>
+				<br /><br /><br /><br /><br /><br /><br />
+				<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-4 about image wow fadeIn"></div>
+					<div class="col-lg-6">
+						<p class="wow fadeInUp" data-wow-delay="0.1s">
+							i'm an undergrad student in CS at
+							<a
+								href="https://www.mun.ca/main/about/"
+								target="_blank"
+								>MUN</a
+							>
+							and a software developer at
+							<a
+								target="_blank"
+								href="https://diaglab.cs.mun.ca/team/"
+								>DIAG Lab</a
+							>
+						</p>
+						<p class="wow fadeInUp" data-wow-delay="0.2s">
+							my top 5 new year's resolutions 🎇 this year,
+						</p>
+						<p
+							class="wow fadeInRight indent red"
+							data-wow-delay="0.3s">
+							1. get an internship at an awesome company
+						</p>
+						<p
+							class="wow fadeInRight indent orange"
+							data-wow-delay="0.4s">
+							2. see one of my favorite bands live for the first
+							time
+						</p>
+						<p
+							class="wow fadeInRight indent green"
+							data-wow-delay="0.5s">
+							3. finally get the PADI Open Water Scuba Diving
+							Certificate
+						</p>
+						<p
+							class="wow fadeInRight indent purple"
+							data-wow-delay="0.6s">
+							4. complete SpotifyPal and remake my website in
+							Astro
+						</p>
+						<p
+							class="wow fadeInRight indent pink"
+							data-wow-delay="0.7s">
+							5. spend 2024 new year's eve at Time's Square NYC
+						</p>
+						<p class="wow fadeInUp" data-wow-delay="0.8s">
+							<i class="fa-solid fa-f" style="color: #ff2600"></i
+							><i class="fa-solid fa-u" style="color: #ff2600"></i
+							><i
+								class="fa-solid fa-n"
+								style="color: #ff2600"></i>
+							<i class="fa-solid fa-f" style="color: #ff2600"></i
+							><i class="fa-solid fa-a" style="color: #ff2600"></i
+							><i class="fa-solid fa-c" style="color: #ff2600"></i
+							><i
+								class="fa-solid fa-t"
+								style="color: #ff2600"></i>
+							: i've listened to
+							<i class="fa-solid fa-9" style="color: #ff2600"></i
+							><i
+								class="fa-solid fa-3"
+								style="color: #ff2600"></i>
+							<i class="fa-solid fa-9" style="color: #ff2600"></i
+							><i class="fa-solid fa-5" style="color: #ff2600"></i
+							><i
+								class="fa-solid fa-9"
+								style="color: #ff2600"></i>
+							minutes of
+							<i
+								class="fa-brands fa-spotify fa-spin fa-spin-reverse fa-2xl"
+								style="color: #48e95b"></i>
+							in 2023, with indie/alternative being
+							<i
+								class="fa-solid fa-1 fa-fade fa-xl"
+								style="color: #ff2600"></i>
+						</p>
+						<p class="wow fadeInUp" data-wow-delay="0.9s">
+							apart from that i'm really interested in doing
+							outdoorsy stuff
+							<i
+								class="fa-solid fa-person-hiking fa-xl"
+								style="color: #4f7a28"></i
+							>, live music
+							<i
+								class="fa-solid fa-guitar fa-xl"
+								style="color: #000000"></i
+							>, travelling
+							<i
+								class="fa-regular fa-plane"
+								style="color: #b92d5d"></i
+							>, and coding
+							<i class="fa-solid fa-code fa-flip"></i>
+						</p>
+						<br />
+						<p class="wow fadeInLeft" data-wow-delay="1s">
+							<i class="devicon-python-plain colored xl"></i>
+							<i class="devicon-java-plain colored xl"></i>
+							<i class="devicon-javascript-plain colored xl"></i>
+							<i
+								class="devicon-html5-plain-wordmark colored xl"></i>
+							<i
+								class="devicon-css3-plain-wordmark colored xl"></i>
+							<i class="devicon-c-plain colored xl"></i>
+							<i class="devicon-flask-original colored xl"></i>
+							<i
+								class="devicon-threejs-original-wordmark colored xl"></i>
+							<i class="devicon-nodejs-plain colored xl"></i>
+							<i class="devicon-express-original colored xl"></i>
+							<i class="devicon-django-plain colored xl"></i>
+							<i class="devicon-spring-plain colored xl"></i>
+							<i class="devicon-linux-plain colored xl"></i>
+							<i
+								class="devicon-mongodb-plain-wordmark colored xl"></i>
+							<i
+								class="devicon-postgresql-plain-wordmark colored xl"></i>
+							<i class="devicon-sqlite-plain colored xl"></i>
+							<i class="devicon-git-plain colored xl"></i>
+							<i
+								class="devicon-gitlab-plain-wordmark colored xl"></i>
+							<i
+								class="devicon-docker-plain-wordmark colored xl"></i>
+							<i
+								class="devicon-amazonwebservices-original colored xl"></i>
+						</p>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+			</div>
+			<!--------------- projects section ends here --------------->
 
-                  <div class="vertical"></div>
-                  
-                  <br><br><br><br><br><br><br>
-                  <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-4 about image  wow fadeIn">
-                        </div>
-                        <div class="col-lg-6">
-                              <p class="wow fadeInUp" data-wow-delay="0.1s">i'm an undergrad student in CS at <a href="https://www.mun.ca/main/about/" target="_blank">MUN</a> and a software developer at <a target="_blank" href="https://diaglab.cs.mun.ca/team/">DIAG Lab</a></p>
-                              <p class="wow fadeInUp" data-wow-delay="0.2s">my top 5 new year's resolutions 🎇 this year,</p>
-                              <p class="wow fadeInRight indent red" data-wow-delay="0.3s">1. get an internship at an awesome company</p>
-                              <p class="wow fadeInRight indent orange" data-wow-delay="0.4s">2. see one of my favorite bands live for the first time</p>
-                              <p class="wow fadeInRight indent green" data-wow-delay="0.5s">3. finally get the PADI Open Water Scuba Diving Certificate</p>
-                              <p class="wow fadeInRight indent purple" data-wow-delay="0.6s">4. complete SpotifyPal and remake my website in Astro</p>
-                              <p class="wow fadeInRight indent pink" data-wow-delay="0.7s">5. spend 2024 new year's eve at Time's Square NYC</p>
-                              <p class="wow fadeInUp" data-wow-delay="0.8s"><i class="fa-solid fa-f" style="color: #ff2600;"></i><i class="fa-solid fa-u" style="color: #ff2600;"></i><i class="fa-solid fa-n" style="color: #ff2600;"></i> <i class="fa-solid fa-f" style="color: #ff2600;"></i><i class="fa-solid fa-a" style="color: #ff2600;"></i><i class="fa-solid fa-c" style="color: #ff2600;"></i><i class="fa-solid fa-t" style="color: #ff2600;"></i> : i've listened to <i class="fa-solid fa-9 " style="color: #ff2600;"></i><i class="fa-solid fa-3 " style="color: #ff2600;"></i> <i class="fa-solid fa-9 " style="color: #ff2600;"></i><i class="fa-solid fa-5 " style="color: #ff2600;"></i><i class="fa-solid fa-9 " style="color: #ff2600;"></i> minutes of <i class="fa-brands fa-spotify fa-spin fa-spin-reverse fa-2xl" style="color: #48e95b;"></i> in 2023, with indie/alternative being <i class="fa-solid fa-1 fa-fade fa-xl" style="color: #ff2600;"></i></p>
-                              <p class="wow fadeInUp" data-wow-delay="0.9s">apart from that i'm really interested in doing outdoorsy stuff <i class="fa-solid fa-person-hiking fa-xl" style="color: #4f7a28;"></i>, live music <i class="fa-solid fa-guitar fa-xl" style="color: #000000;"></i>, travelling <i class="fa-regular fa-plane" style="color: #b92d5d;"></i>, and coding <i class="fa-solid fa-code fa-flip"></i></p>
-                              <br>
-                              <p class="wow fadeInLeft" data-wow-delay="1s">
-                                    <i class="devicon-python-plain colored xl"></i>
-                                    <i class="devicon-java-plain colored xl"></i> 
-                                    <i class="devicon-javascript-plain colored xl"></i>
-                                    <i class="devicon-html5-plain-wordmark colored xl"></i>
-                                    <i class="devicon-css3-plain-wordmark colored xl"></i>
-                                    <i class="devicon-c-plain colored xl"></i> 
-                                    <i class="devicon-flask-original colored xl"></i>
-                                    <i class="devicon-threejs-original-wordmark colored xl"></i>
-                                    <i class="devicon-nodejs-plain colored xl"></i>
-                                    <i class="devicon-express-original colored xl"></i>
-                                    <i class="devicon-django-plain colored xl"></i>
-                                    <i class="devicon-spring-plain colored xl"></i>
-                                    <i class="devicon-linux-plain colored xl"></i>
-                                    <i class="devicon-mongodb-plain-wordmark colored xl"></i>
-                                    <i class="devicon-postgresql-plain-wordmark colored xl"></i>
-                                    <i class="devicon-sqlite-plain colored xl"></i>
-                                    <i class="devicon-git-plain colored xl"></i>
-                                    <i class="devicon-gitlab-plain-wordmark colored xl"></i>
-                                    <i class="devicon-docker-plain-wordmark colored xl"></i>
-                                    <i class="devicon-amazonwebservices-original colored xl"></i>
-                              </p>
-                        </div>
-                        <div class="col-lg-1"></div>
-                  </div>
-            </div>
-            <!--------------- projects section ends here --------------->
+			<!--------------- footer starts here --------------->
+			<div class="footer">
+				<div class="container">
+					<br /><br />
 
+					<br />
 
+					<div class="hr">
+						<div class="row"></div>
+					</div>
 
-            <!--------------- footer starts here --------------->
-            <div class="footer">
-                  <div class="container">
-                        <br><br>
-                    
-                        <br>
-                    
-                        <div class="hr">
-                              <div class="row"></div>
-                        </div>
-                    
-                        <br><br>
-                    
-                        <div class="info" id="info">
-                              <div class="row">
-                                    <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp" data-wow-delay="0.1">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.linkedin.com/in/shevinu-nawalage-a109371bb/" target="_blank"><i class="fab fa-linkedin"></i></a></h4>
-                                          <br><br>
-                                    </div>
-                    
-                                    <div class="col-lg-4" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0.3s">follow me</p>
-                    
-                                          <ul>
-                                                <li id="github" class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://github.com/ShevinuM" target="_blank"><i class="fab fa-github"></i></a></li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.5s"><a href="" target="_blank"><i class="fa-solid fa-photo-film"></i></a></li>
-                                                <li id="spotify" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://open.spotify.com/user/31xnv77agck4a2ff436q6z2kmqam?si=baf56ed41a054fc5" target="_blank"><i class="fab fa-spotify"></i></a></li>
-                                                <li id="discord" class="wow fadeInUp" data-wow-delay="0.7s">
-                                                      <a href="#" data-discord="shevshevshev">
-                                                        <i class="fab fa-discord"></i>
-                                                      </a>
-                                                </li>
-                                          </ul>
-                    
-                                          <br><br>
-                                    </div>
-                    
-                                    <div class="col-lg-4" id="address">
-                                          <p class="wow fadeInUp" data-wow-delay="0.8s">say hello</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.9s"><a href="mailto:shevinu.dev@gmail.com">shevinu.dev@gmail.com</a></h4>
-                                          <br><br>
-                                    </div>
-                              </div>
-                        </div>
-                    </div>
-            </div>
-            <!--------------- footer ends here --------------->
+					<br /><br />
 
-            <br><br><br><br>
+					<div class="info" id="info">
+						<div class="row">
+							<div class="col-lg-4" id="personal">
+								<p class="wow fadeInUp" data-wow-delay="0.1">
+									connect with me
+								</p>
+								<h4 class="wow fadeInUp" data-wow-delay="0.2s">
+									<a
+										href="https://www.linkedin.com/in/shevinu-nawalage-a109371bb/"
+										target="_blank"
+										><i class="fab fa-linkedin"></i
+									></a>
+								</h4>
+								<br /><br />
+							</div>
 
-      </div>
+							<div class="col-lg-4" id="media">
+								<p class="wow fadeInUp" data-wow-delay="0.3s">
+									follow me
+								</p>
 
-      <!--scripts-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+								<ul>
+									<li
+										id="github"
+										class="wow fadeInUp"
+										data-wow-delay="0.4s">
+										<a
+											href="https://github.com/ShevinuM"
+											target="_blank"
+											><i class="fab fa-github"></i
+										></a>
+									</li>
+									<li
+										id="spotify"
+										class="wow fadeInUp"
+										data-wow-delay="0.6s">
+										<a
+											href="https://open.spotify.com/user/31xnv77agck4a2ff436q6z2kmqam?si=baf56ed41a054fc5"
+											target="_blank"
+											><i class="fab fa-spotify"></i
+										></a>
+									</li>
+									<li
+										id="discord"
+										class="wow fadeInUp"
+										data-wow-delay="0.7s">
+										<a href="#" data-discord="shev_m">
+											<i class="fab fa-discord"></i>
+										</a>
+									</li>
+								</ul>
 
-      <script type="text/javascript">
+								<br /><br />
+							</div>
 
-            // discord
-            $("#discord a").click(function(event) {
-                  event.preventDefault();  // Prevent the default action (navigating to "#")
-                  var discordUsername = $(this).data('discord');
-                  var tempInput = $("<input>");
-                  $("body").append(tempInput);
-                  tempInput.val(discordUsername).select();
-                  document.execCommand("copy");
-                  tempInput.remove();
-                  $('#copy-toast').toast('show');
-            });
+							<div class="col-lg-4" id="address">
+								<p class="wow fadeInUp" data-wow-delay="0.8s">
+									say hello
+								</p>
+								<h4 class="wow fadeInUp" data-wow-delay="0.9s">
+									<a href="mailto:shevinu.dev@gmail.com"
+										>shevinu.dev@gmail.com</a
+									>
+								</h4>
+								<br /><br />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--------------- footer ends here --------------->
 
-            // navigation starts here
-            TweenMax.from("#brand", 1, {
-                  delay: 0.4,
-                  y: 10,
-                  opacity: 0,
-                  ease: Expo.easeInOut
-            })
+			<br /><br /><br /><br />
+		</div>
 
-            TweenMax.staggerFrom("#menu li a", 1, {
-                  delay: 0.4,
-                  opacity: 0,
-                  ease: Expo.easeInOut
-            }, 0.1);
+		<!--scripts-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
-            // navigation starts here
-            $(document).on("click", "#toggle", function() {
-                  $(this).toggleClass('on');
-                  $("#resize").toggleClass("active");
-            });
+		<script type="text/javascript">
+			// discord
+			$("#discord a").click(function (event) {
+				event.preventDefault(); // Prevent the default action (navigating to "#")
+				var discordUsername = $(this).data("discord");
+				var tempInput = $("<input>");
+				$("body").append(tempInput);
+				tempInput.val(discordUsername).select();
+				document.execCommand("copy");
+				tempInput.remove();
+				$("#copy-toast").toast("show");
+			});
 
-            $(document).on("click", "#resize ul li a", function() {
-                  $(this).toggleClass('on');
-                  $("#resize").toggleClass("active");
-            });
+			// navigation starts here
+			TweenMax.from("#brand", 1, {
+				delay: 0.4,
+				y: 10,
+				opacity: 0,
+				ease: Expo.easeInOut,
+			});
 
-            $(document).on("click", ".close-btn", function() {
-                  $(this).toggleClass('on');
-                  $("#resize").toggleClass("active");
-            });
-            // navigation ends here
+			TweenMax.staggerFrom(
+				"#menu li a",
+				1,
+				{
+					delay: 0.4,
+					opacity: 0,
+					ease: Expo.easeInOut,
+				},
+				0.1
+			);
 
-            $(document).ready(function() {
-                  $('body').css('display', 'block');
-                  // rest of your JS code
-            });
+			// navigation starts here
+			$(document).on("click", "#toggle", function () {
+				$(this).toggleClass("on");
+				$("#resize").toggleClass("active");
+			});
 
-            new WOW().init();
+			$(document).on("click", "#resize ul li a", function () {
+				$(this).toggleClass("on");
+				$("#resize").toggleClass("active");
+			});
 
-      </script>
-      <!---scripts end----->
-      <!--------toast--------->
-      <div class="toast" style="position: fixed; top: 90vh; right: 20px; z-index: 9999; background:#5b209a; color: white" id="copy-toast" data-delay="2000">
-            <div class="toast-body">
-                  <i class="fab fa-discord"></i> Discord username copied!
-            </div>
-      </div>
-      <!-----toast ends------->
-</body>
+			$(document).on("click", ".close-btn", function () {
+				$(this).toggleClass("on");
+				$("#resize").toggleClass("active");
+			});
+			// navigation ends here
+
+			$(document).ready(function () {
+				$("body").css("display", "block");
+				// rest of your JS code
+			});
+
+			new WOW().init();
+		</script>
+		<!---scripts end----->
+		<!--------toast--------->
+		<div
+			class="toast"
+			style="
+				position: fixed;
+				top: 90vh;
+				right: 20px;
+				z-index: 9999;
+				background: #5b209a;
+				color: white;
+			"
+			id="copy-toast"
+			data-delay="2000">
+			<div class="toast-body">
+				<p></p>&lt;\<i class="fab fa-discord"></i>&gt; shev_m &lt;\<i class="fab fa-discord"></i>&gt;</p>
+			</div>
+		</div>
+		<!-----toast ends------->
+	</body>
 </html>
