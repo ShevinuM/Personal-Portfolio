@@ -54,7 +54,8 @@ body {
 }
 
 .anim-typewriter {
-	animation: typewriter 2s steps(40) 1s 1 normal both,
+	animation:
+		typewriter 2s steps(40) 1s 1 normal both,
 		blinkTextCussor 250ms steps(40) infinite normal;
 }
 
@@ -380,6 +381,11 @@ h6 {
 }
 .image-10 {
 	background: url(../images/AStar.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.image-loa {
+	background: url(../images/LOA.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
